@@ -10,4 +10,4 @@ COPY src /var/www/html/
 EXPOSE 80/tcp
 EXPOSE 443/tcp
 
-CMD ["docker compose up"]
+RUN docker compose up
