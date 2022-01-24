@@ -10,3 +10,4 @@ RUN curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-c
 COPY src /var/www/html/
 EXPOSE 80/tcp
 EXPOSE 443/tcp
+CMD ["docker","compose","up"]
