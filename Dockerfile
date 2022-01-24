@@ -9,4 +9,3 @@ RUN a2enmod rewrite
 COPY src /var/www/html/
 EXPOSE 80/tcp
 EXPOSE 443/tcp
-#RUN docker compose up
